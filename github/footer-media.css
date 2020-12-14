@@ -1,0 +1,34 @@
+@media(max-width:1420px){
+footer div.footer-menu{
+padding-top: 48px;
+display: grid;
+grid-template-columns: .5fr 5fr .5fr;
+}
+}
+
+@media(max-width:1220px){
+footer div.footer-menu{
+padding-top: 48px;
+display: grid;
+grid-template-columns: .1fr 5fr .1fr;
+}
+}
+
+@media(max-width:1010px){
+footer div.footer-menu{
+padding-top: 48px;
+}
+footer div.footer-menu ul li{
+display: block;
+padding-bottom: 25px;
+padding-right: 0;
+text-align: center;
+}
+
+footer{
+height: 460px;
+}
+footer div.footer-menu ul li:nth-of-type(7){
+padding-bottom: 0;
+}
+}
